@@ -1,0 +1,35 @@
+#coffee-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+}
+
+#coffee-card {
+    position: relative;
+}
+
+#popularity {
+    position: absolute;
+    top: -5%;
+    left: 6%;
+}
+
+#coffee-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#coffee-rarting {
+    display: flex;
+    flex-direction: row;
+}
+
+#coffee-unavailable {
+    position: relative;
+    bottom: 15%;
+    left: 70%;
+}
