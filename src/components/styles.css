@@ -1,19 +1,50 @@
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 15rem;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #1B1D1F;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    color: #FEF7EE;
+}
+
+.btn.active {
+    background-color: #6F757C;
+}
+
 #coffee-container {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    position: absolute;
+}
+
+#coffee-img {
+    border-radius: 15px;
 }
 
 #coffee-card {
     position: relative;
+    margin: 35px 0;
 }
 
 #popularity {
     position: absolute;
-    top: -5%;
+    top: 2%;
     left: 6%;
+    color: #111315;
+    background-color: #F6C768;
+    border-radius: 10px;
+    font-size:  0.625rem;
+    padding: 0.2rem 0.7rem;
+    margin: 0;
 }
 
 #coffee-data {
@@ -23,13 +54,38 @@
     align-items: center;
 }
 
-#coffee-rarting {
+#coffee-name, #coffee-punt {
+    color: #FEF7EE;
+    font-size: 1rem;
+}
+
+#coffee-price {
+    background-color: #BEE3CC;
+    border-radius: 3px;
+    padding: 3px 6px;
+    font-size:  0.75rem;
+}
+
+#coffee-rating {
     display: flex;
     flex-direction: row;
+    font-size: 1rem;
+    align-items: center;
+}
+
+#coffee-votes {
+    color: #6F757C;
+    font-size: 0.875rem;
+}
+
+#coffee-punt, #coffee-votes {
+    margin: 3px 3px;
 }
 
 #coffee-unavailable {
     position: relative;
     bottom: 15%;
-    left: 70%;
+    left: 78%;
+    color: #ED735D;
+    font-size: 0.875rem;
 }
